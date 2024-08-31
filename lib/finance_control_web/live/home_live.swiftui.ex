@@ -2,7 +2,7 @@ defmodule FinanceControlWeb.HomeLive.SwiftUI do
   @moduledoc false
   use FinanceControlNative, [:render_component, format: :swiftui]
 
-  def render(assigns, interface) do
+  def render(assigns, _interface) do
     ~LVN"""
     <VStack id="hello-ios">
       <Text><%= @counter %></Text>

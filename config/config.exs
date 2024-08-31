@@ -7,6 +7,13 @@
 # General application configuration
 import Config
 
+config :finance_control, FinanceControl.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  timeout: 3000,
+  prepare: :unnamed,
+  migration_primary_key: [id: :uuid, type: :binary_id],
+  migration_timestamps: [type: :utc_datetime_usec]
+
 config :finance_control,
   ecto_repos: [FinanceControl.Repo],
   generators: [timestamp_type: :utc_datetime, binary_id: true]
@@ -52,22 +59,19 @@ config :logger, :console,
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 
-config :phoenix_template, :format_encoders, [
-  swiftui: Phoenix.HTML.Engine
-]
+config :phoenix_template, :format_encoders, swiftui: Phoenix.HTML.Engine
 
 config :mime, :types, %{
   "text/styles" => ["styles"],
   "text/swiftui" => ["swiftui"]
 }
 
-config :live_view_native, plugins: [
-  LiveViewNative.SwiftUI
-]
+config :live_view_native,
+  plugins: [
+    LiveViewNative.SwiftUI
+  ]
 
-config :phoenix, :template_engines, [
-  neex: LiveViewNative.Engine
-]
+config :phoenix, :template_engines, neex: LiveViewNative.Engine
 
 config :live_view_native_stylesheet,
   content: [

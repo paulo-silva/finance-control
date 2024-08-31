@@ -61,7 +61,6 @@ defmodule FinanceControl.MixProject do
       {:live_view_native_stylesheet, "~> 0.3.0"},
       {:live_view_native_swiftui, "~> 0.3.0"},
       {:live_view_native_live_form, "~> 0.3.0"}
-
     ]
   end
 
