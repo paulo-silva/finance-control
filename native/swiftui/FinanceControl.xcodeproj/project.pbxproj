@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0471DCDA2DD0D05FCD0DC0CF /* ReconnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21366B597459971F0C2890EF /* ReconnectingView.swift */; };
+		083B612336D144FF5A0F5049 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBEE63276B3ADD1B5225783 /* ContentView.swift */; };
+		1BECE6AB774B91E7F9EBB021 /* DisconnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F2D0A6546A7AF5FAA7BDCF /* DisconnectedView.swift */; };
+		1DDDDAED1F10FF042604D168 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3D183F33FF7ACDC0FF24F5 /* Preview Assets.xcassets */; };
+		49C41672E5380494CE512F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F6E823F9536DE513045E02 /* Assets.xcassets */; };
+		4AB39ADBBD9135B2555B67E8 /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = B092AD3A0EEB8C11BD195DB0 /* LiveViewNative */; };
+		50107AFD395CD8DD91F9B515 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBEE63276B3ADD1B5225783 /* ContentView.swift */; };
+		573274241BF63A243D41F0C4 /* FinanceControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C10E68D136BDB06F89DC29 /* FinanceControl.swift */; };
+		5A21ADE25685455EDD059377 /* LiveViewNativeLiveForm in Frameworks */ = {isa = PBXBuildFile; productRef = B9579DE0A1F7743F48052490 /* LiveViewNativeLiveForm */; };
+		609C34C4E0BD8BAA05A4D08E /* LiveViewNativeLiveForm in Frameworks */ = {isa = PBXBuildFile; productRef = C1E1D0B5594ABD9DBF909062 /* LiveViewNativeLiveForm */; };
+		66B78859B70BD8FA87986305 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4077090D6DD79ABD310100 /* ErrorView.swift */; };
+		7EFAE27D76D8911433CAF59F /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4077090D6DD79ABD310100 /* ErrorView.swift */; };
+		80F965FA1B7D35E34D161F83 /* ReconnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21366B597459971F0C2890EF /* ReconnectingView.swift */; };
+		9CA0A1947E0478FFAF3E8A77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3D183F33FF7ACDC0FF24F5 /* Preview Assets.xcassets */; };
+		B811F7A1BE79473BF7F87FB8 /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66BA57DF1EA29B03E1C8ADD /* ConnectingView.swift */; };
+		BDD0DFD03279FAA53F6D1338 /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66BA57DF1EA29B03E1C8ADD /* ConnectingView.swift */; };
+		D32B60ED25CE3C6E6B692C30 /* DisconnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F2D0A6546A7AF5FAA7BDCF /* DisconnectedView.swift */; };
+		DCF693AFA5D58F27A3254B29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F6E823F9536DE513045E02 /* Assets.xcassets */; };
+		DD5B54F59EDE3ACD6A990494 /* FinanceControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C10E68D136BDB06F89DC29 /* FinanceControl.swift */; };
+		F1EABFB7C7D89CC9B2B913BA /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = FDFE7EEBA089C77274DDAF52 /* LiveViewNative */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21366B597459971F0C2890EF /* ReconnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconnectingView.swift; sourceTree = "<group>"; };
+		3CBEE63276B3ADD1B5225783 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5F3D183F33FF7ACDC0FF24F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B4077090D6DD79ABD310100 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		8C007BF0553D11D287F3CD1D /* FinanceControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C10E68D136BDB06F89DC29 /* FinanceControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceControl.swift; sourceTree = "<group>"; };
+		95F6E823F9536DE513045E02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8F2D0A6546A7AF5FAA7BDCF /* DisconnectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectedView.swift; sourceTree = "<group>"; };
+		D66BA57DF1EA29B03E1C8ADD /* ConnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectingView.swift; sourceTree = "<group>"; };
+		EB54A2BEDC5BD9AF8ECE5E0E /* FinanceControl Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FinanceControl Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001606FBF2F06179B4896AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EABFB7C7D89CC9B2B913BA /* LiveViewNative in Frameworks */,
+				609C34C4E0BD8BAA05A4D08E /* LiveViewNativeLiveForm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13565818FE890F0371F8519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB39ADBBD9135B2555B67E8 /* LiveViewNative in Frameworks */,
+				5A21ADE25685455EDD059377 /* LiveViewNativeLiveForm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5344B1A86CAD44B041BAB5BA = {
+			isa = PBXGroup;
+			children = (
+				A95037AEB0880409BE96D39D /* FinanceControl */,
+				D423535F6DF495C377584570 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A95037AEB0880409BE96D39D /* FinanceControl */ = {
+			isa = PBXGroup;
+			children = (
+				EFB807EB0E2AB872FE62EB4C /* Preview Content */,
+				95F6E823F9536DE513045E02 /* Assets.xcassets */,
+				D66BA57DF1EA29B03E1C8ADD /* ConnectingView.swift */,
+				3CBEE63276B3ADD1B5225783 /* ContentView.swift */,
+				C8F2D0A6546A7AF5FAA7BDCF /* DisconnectedView.swift */,
+				8B4077090D6DD79ABD310100 /* ErrorView.swift */,
+				93C10E68D136BDB06F89DC29 /* FinanceControl.swift */,
+				21366B597459971F0C2890EF /* ReconnectingView.swift */,
+			);
+			path = FinanceControl;
+			sourceTree = "<group>";
+		};
+		D423535F6DF495C377584570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB54A2BEDC5BD9AF8ECE5E0E /* FinanceControl Watch App.app */,
+				8C007BF0553D11D287F3CD1D /* FinanceControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB807EB0E2AB872FE62EB4C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5F3D183F33FF7ACDC0FF24F5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66D894BD91E953997B4290A0 /* FinanceControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EAD76D93FA384C749588150 /* Build configuration list for PBXNativeTarget "FinanceControl" */;
+			buildPhases = (
+				CD7C912E14B6A2C74CDF77F3 /* Sources */,
+				FA93FCDA427356F7016E5D8C /* Resources */,
+				C13565818FE890F0371F8519 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinanceControl;
+			packageProductDependencies = (
+				B092AD3A0EEB8C11BD195DB0 /* LiveViewNative */,
+				B9579DE0A1F7743F48052490 /* LiveViewNativeLiveForm */,
+			);
+			productName = FinanceControl;
+			productReference = 8C007BF0553D11D287F3CD1D /* FinanceControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA387FAA7F5D6C123C9F934B /* FinanceControl Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D63E82376A6BC371F86269E /* Build configuration list for PBXNativeTarget "FinanceControl Watch App" */;
+			buildPhases = (
+				40C5A9DEBF5BD1E1FCA36510 /* Sources */,
+				449FDE9212F0C3A4875B970F /* Resources */,
+				001606FBF2F06179B4896AFA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FinanceControl Watch App";
+			packageProductDependencies = (
+				FDFE7EEBA089C77274DDAF52 /* LiveViewNative */,
+				C1E1D0B5594ABD9DBF909062 /* LiveViewNativeLiveForm */,
+			);
+			productName = "FinanceControl Watch App";
+			productReference = EB54A2BEDC5BD9AF8ECE5E0E /* FinanceControl Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C669E6C292016B4B6B688C4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = DCD1FA09E6D1395ECA6F4D68 /* Build configuration list for PBXProject "FinanceControl" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5344B1A86CAD44B041BAB5BA;
+			packageReferences = (
+				4029ADA70E43DE77C789C99F /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */,
+				9C1DD54EE799B9FC5E2FBAB5 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66D894BD91E953997B4290A0 /* FinanceControl */,
+				EA387FAA7F5D6C123C9F934B /* FinanceControl Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		449FDE9212F0C3A4875B970F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF693AFA5D58F27A3254B29 /* Assets.xcassets in Resources */,
+				1DDDDAED1F10FF042604D168 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA93FCDA427356F7016E5D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C41672E5380494CE512F0F /* Assets.xcassets in Resources */,
+				9CA0A1947E0478FFAF3E8A77 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40C5A9DEBF5BD1E1FCA36510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD0DFD03279FAA53F6D1338 /* ConnectingView.swift in Sources */,
+				083B612336D144FF5A0F5049 /* ContentView.swift in Sources */,
+				D32B60ED25CE3C6E6B692C30 /* DisconnectedView.swift in Sources */,
+				66B78859B70BD8FA87986305 /* ErrorView.swift in Sources */,
+				DD5B54F59EDE3ACD6A990494 /* FinanceControl.swift in Sources */,
+				0471DCDA2DD0D05FCD0DC0CF /* ReconnectingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7C912E14B6A2C74CDF77F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B811F7A1BE79473BF7F87FB8 /* ConnectingView.swift in Sources */,
+				50107AFD395CD8DD91F9B515 /* ContentView.swift in Sources */,
+				1BECE6AB774B91E7F9EBB021 /* DisconnectedView.swift in Sources */,
+				7EFAE27D76D8911433CAF59F /* ErrorView.swift in Sources */,
+				573274241BF63A243D41F0C4 /* FinanceControl.swift in Sources */,
+				80F965FA1B7D35E34D161F83 /* ReconnectingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2344D062C10A5C9339930726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FinanceControl;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.FinanceControl;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		317703DEBB1F60364C9643ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = QNRSNW8GV3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FinanceControl;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Debug;
+		};
+		56DC5DA9BA35FC05B9D326B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FinanceControl;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.FinanceControl;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		75287F670E6ECF69F2C57FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = QNRSNW8GV3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FinanceControl;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Release;
+		};
+		C9FB2F7A08E4CEE890CA88F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QNRSNW8GV3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FinanceControl.watchkit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		D8D93B70A5A99C0AD8F594AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QNRSNW8GV3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FinanceControl.watchkit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EAD76D93FA384C749588150 /* Build configuration list for PBXNativeTarget "FinanceControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				317703DEBB1F60364C9643ED /* Debug */,
+				75287F670E6ECF69F2C57FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D63E82376A6BC371F86269E /* Build configuration list for PBXNativeTarget "FinanceControl Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FB2F7A08E4CEE890CA88F6 /* Debug */,
+				D8D93B70A5A99C0AD8F594AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DCD1FA09E6D1395ECA6F4D68 /* Build configuration list for PBXProject "FinanceControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DC5DA9BA35FC05B9D326B9 /* Debug */,
+				2344D062C10A5C9339930726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4029ADA70E43DE77C789C99F /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liveview-native/liveview-client-swiftui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+		9C1DD54EE799B9FC5E2FBAB5 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liveview-native/liveview-native-live-form";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B092AD3A0EEB8C11BD195DB0 /* LiveViewNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4029ADA70E43DE77C789C99F /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = LiveViewNative;
+		};
+		B9579DE0A1F7743F48052490 /* LiveViewNativeLiveForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C1DD54EE799B9FC5E2FBAB5 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */;
+			productName = LiveViewNativeLiveForm;
+		};
+		C1E1D0B5594ABD9DBF909062 /* LiveViewNativeLiveForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C1DD54EE799B9FC5E2FBAB5 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */;
+			productName = LiveViewNativeLiveForm;
+		};
+		FDFE7EEBA089C77274DDAF52 /* LiveViewNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4029ADA70E43DE77C789C99F /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = LiveViewNative;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C669E6C292016B4B6B688C4D /* Project object */;
+}
